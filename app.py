@@ -1,3 +1,4 @@
+import requests
 from flask import Flask
 from tchan import ChannelScraper
 

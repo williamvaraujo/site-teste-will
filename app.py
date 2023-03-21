@@ -29,15 +29,15 @@ menu = """
 
 @app.route("/")
 def index():
-  return menu + "Olá, mundo! Esse é meu site. (Álvaro Justen)"
+  return menu + "Olá, mundo! Vamos dominar o mundo!"
 
 @app.route("/sobre")
 def sobre():
-  return menu + "Aqui vai o conteúdo da página Sobre"
+  return menu + "Sobre como dominar o mundo"
 
 @app.route("/contato")
 def contato():
-  return menu + "Aqui vai o conteúdo da página Contato"
+  return menu + "Contato do Pink e Cérebro"
 
 
 @app.route("/promocoes")

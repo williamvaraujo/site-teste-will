@@ -21,24 +21,23 @@ def ultimas_promocoes():
       return resultado
 
 
+
 menu = """
 <a href="/">Página inicial</a> | <a href="/promocoes">PROMOÇÕES</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
 <br>
 """
 
 @app.route("/")
-def hell_world():
-  return menu + "Olá, vamos dominar o mundo! (Pink e Cérebro)"
-
+def index():
+  return menu + "Olá, mundo! Esse é meu site. (Álvaro Justen)"
 
 @app.route("/sobre")
 def sobre():
-  return menu + "Aqui vamos postar o conteúdo de como dominar o mundo"
-
+  return menu + "Aqui vai o conteúdo da página Sobre"
 
 @app.route("/contato")
 def contato():
-  return menu + "Aqui colocaremos o contato dos dominadores de mundos mais experientes do mundo"
+  return menu + "Aqui vai o conteúdo da página Contato"
 
 
 @app.route("/promocoes")
